@@ -21,7 +21,7 @@ angular.module('corApp')
  this.deletePermit = function (id) {
    return $http({
      method: 'DELETE',
-     url: constants.baseURL + 'permits' + id
+     url: constants.baseURL + 'permits/' + id
    });
  };
 
