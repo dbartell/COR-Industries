@@ -2,7 +2,7 @@ angular.module("corApp").controller("signupCtrl", function($scope, authService, 
   $scope.signup = function(user) {
     if (user.password === $scope.password_repeat) {
         authService.register(user).then(function(response) {
-          $location.path('/home');
+          $location.path('/login');
           $scope.user = response;
                 });
           }
