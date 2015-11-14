@@ -5,9 +5,6 @@ var cors = require('cors');
 var session = require('express-session');
 var mongoose = require('mongoose');
 
-// CONFIG //
-var config = require('./config');
-
 // CONTROLLERS //
 var UserCtrl = require('./controllers/UserCtrl');
 var PermitCtrl = require('./controllers/PermitCtrl');
@@ -30,7 +27,7 @@ app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(cors());
 app.use(session({
-  secret: config.SESSION_SECRET,
+  secret: process.env.SESSION_SECRET,
   saveUninitialized: true,
   resave: true
 }));
@@ -55,8 +52,8 @@ app.put('/permits/:id', PermitCtrl.update);
 app.delete('/permits/:id', PermitCtrl.delete);
 
 // CONNECTIONS //
-var mongoURI = config.MONGO_URI;
-var port = config.PORT;
+var mongoURI = process.env.MONGO_URI;
+var port = process.env.PORT;
 
 mongoose.connect(mongoURI);
 mongoose.connection.once('open', function() {
