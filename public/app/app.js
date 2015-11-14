@@ -2,7 +2,7 @@ angular.module('corApp', ['ngRoute', 'ui.materialize'])
 
 .constant("constants",
 {
-  "baseURL": "http://localhost:8080/"
+  "baseURL": "https://cor.herokuapp.com/"
 })
 
 
