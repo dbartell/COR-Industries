@@ -1,0 +1,48 @@
+.permit-header {
+  position: relative;
+  left: 17%;
+  margin-bottom: 0px;
+}
+.row {
+  position: relative;
+  top: 15px;
+}
+.grey {
+  height: 50px;
+}
+.daddy-flex {
+  padding-left: 30px;
+  padding-top: 15px;
+  display: flex;
+}
+.da-flex {
+  flex: 1;
+}
+.lefty {
+  position: relative;
+  left: -45px;
+  bottom: 15px;
+}
+.da-flex-small {
+  flex: 0.75;
+}
+.permit-button {
+  position: relative;
+  right: 0px;
+}
+.card-table {
+  position: relative;
+  left: 8%;
+  margin-top: 10px;
+}
+.card-notes {
+  position: relative;
+  top: 25px;
+  left: 8%;
+  width: 84%;
+}
+.card-buttons {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}

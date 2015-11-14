@@ -1,0 +1,69 @@
+.fill-out {
+  position: relative;
+  margin-top: 25px;
+  left: 5%;
+  font-size: 20px;
+}
+.body-permit {
+  margin-top: 25px;
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+.header-permit {
+  font-size: 20px;
+  height: 50px;
+  padding-top: 5px;
+}
+.body-permit p {
+  font-size: 22px;
+}
+.input-truck {
+  height: 75px;
+}
+.input-truck input{
+  font-size: 22px;
+}
+.text-area-truck {
+  position: relative;
+  top: -20px;
+}
+.submit-button-permits {
+  position: relative;
+  right: 3%;
+  margin-bottom: 50px;
+}
+input[type=text]:focus{
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+}
+.input-truck label {
+     color: black;
+   }
+
+.input-truck input[type=text]:focus + label {
+     color: black;
+   }
+.input-truck input[type=text]:focus {
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 0 0 black;
+  }
+  .input-truck input[type=text].valid {
+     border-bottom: 1px solid black;
+     box-shadow: 0 1px 0 0 black;
+   }
+   input-truck label {
+        color: black;
+      }
+
+   .input-truck textarea[type=text]:focus + label {
+        color: black;
+      }
+   .input-truck textarea[type=text]:focus {
+       border-bottom: 1px solid black;
+       box-shadow: 0 1px 0 0 black;
+     }
+     .input-truck textarea[type=text].valid {
+        border-bottom: 1px solid black;
+        box-shadow: 0 1px 0 0 black;
+      }

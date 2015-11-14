@@ -1,0 +1,49 @@
+.page-footer {
+  position: relative;
+  bottom: 0;
+}
+.footer-content {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+.footer-one {
+  flex: 1.75;
+}
+.footer-two {
+  flex: 1;
+}
+.footer-three {
+  flex: 1;
+}
+.footer-header {
+  position: relative;
+  top: 0px;
+  color: white;
+}
+.footer-icons {
+  position: relative;
+  top: 7px;
+  margin-right: 5px;
+}
+.footer-p {
+  position: relative;
+  color: white;
+  font-size: 18px;
+}
+
+@media (max-width: 650px) {
+  .footer-content {
+    margin-left: 25px;
+  }
+  .footer-one {
+    flex: 0;
+  }
+  .footer-three {
+    flex: 1.5;
+  }
+  .footer-email {
+    position: relative;
+    left: -25px;
+  }
+}
