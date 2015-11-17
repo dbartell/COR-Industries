@@ -26,6 +26,18 @@
   top: 7px;
   margin-right: 5px;
 }
+.footer-p a:visited {
+  color: white;
+  text-decoration: none;
+}
+  .footer-p a:hover {
+    color: white;
+    text-decoration: none;
+  }
+    .footer-p a:link {
+      color: white;
+      text-decoration: none;
+    }
 .footer-p {
   position: relative;
   color: white;
