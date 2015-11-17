@@ -4,6 +4,11 @@ body {
 ::-webkit-scrollbar {
     display: none;
 }
+a:hover, a:visited, a:link, a:active
+{
+  color: white;
+  text-decoration: none !important;
+}
 .jumbotron {
   text-align: center;
 }
