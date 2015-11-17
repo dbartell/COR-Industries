@@ -4,11 +4,7 @@ body {
 ::-webkit-scrollbar {
     display: none;
 }
-a:hover, a:visited, a:link, a:active
-{
-  color: white;
-  text-decoration: none !important;
-}
+
 .jumbotron {
   text-align: center;
 }
@@ -108,16 +104,16 @@ a:hover, a:visited, a:link, a:active
   color: white;
 }
 .signup-page {
-  width: 50%;
+  width: 60%;
   position: relative;
   top: 100px;
-  left: 25%;
+  left: 20%;
 }
 .login-page {
   width: 60%;
   position: relative;
   top: 100px;
-  left: 25%;
+  left: 20%;
 }
 .logout-button {
   color: white;
@@ -125,9 +121,9 @@ a:hover, a:visited, a:link, a:active
   right: 75px;
   top: 21px;
 }
- @media (max-width: 650px) {
+ @media (max-width: 376px) {
    .nav-bar {
-     height: 75px;
+     height: 200px;
    }
    .logo-home {
      margin-top: 10px;

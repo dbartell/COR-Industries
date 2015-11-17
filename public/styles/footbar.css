@@ -26,26 +26,6 @@
   top: 7px;
   margin-right: 5px;
 }
-.footer-icons a:hover
-{
-  color: white;
-  text-decoration: none !important;
-}
- .footer-icons a:visited
- {
-   color: white;
-   text-decoration: none !important;
- }
- .footer-icons a:link
- {
-   color: white;
-   text-decoration: none !important;
- }
- .footer-icons a:active
- {
-   color: white;
-   text-decoration: none !important;
- }
 .footer-p {
   position: relative;
   color: white;
