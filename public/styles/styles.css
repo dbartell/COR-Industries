@@ -120,9 +120,9 @@ body {
   right: 75px;
   top: 21px;
 }
- @media (max-width: 650px) {
+ @media (max-width: 376px) {
    .nav-bar {
-     height: 75px;
+     height: 200px;
    }
    .logo-home {
      margin-top: 10px;

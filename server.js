@@ -25,7 +25,7 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(session({
-  secret: process.env.SESSION_SECRET,
+  secret: "yo",
   saveUninitialized: true,
   resave: true
 }));
@@ -50,8 +50,8 @@ app.put('/permits/:id', PermitCtrl.update);
 app.delete('/permits/:id', PermitCtrl.delete);
 
 // CONNECTIONS //
-var mongoURI = process.env.MONGO_URI;
-var port = process.env.PORT;
+var mongoURI = "mongodb://localhost:27017/cor";
+var port = 9000;
 
 mongoose.connect(mongoURI);
 mongoose.connection.once('open', function() {
