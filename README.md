@@ -1,5 +1,7 @@
 # COR-Industries
 
+See it Live @ http://cor.herokuapp.com/
+
 ###General Info
 -------------------------------------------
 COR-Industries is a local business in Lehi, UT. They provide a service where they order oversized truck load permits for each state a load travels through. I created an web app that is mobile compatible for the drivers to use as they walk around their trucks measuring and weighing their loads. 
